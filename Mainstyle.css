@@ -61,8 +61,6 @@ body {
   /* padding-right: 30px; */
 }
 .tour-now-btn button:hover {
-  background-color: blue;
-  color: white;
 }
 /* tour Gallary */
 .card {
@@ -199,4 +197,18 @@ body {
   display: block;
   margin: 15px;
   font-size: 30px;
+}
+/* responsive */
+@media only screen and(max-width:767px) {
+  .Head-line h1 {
+    position: absolute;
+    max-width: 100%;
+    padding-left: 0;
+  }
+  .tour-now-btn button {
+    max-width: 100%;
+    display: flex;
+    flex-basis: 100%;
+    width: 70%;
+  }
 }
